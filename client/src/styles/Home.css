@@ -1,0 +1,12 @@
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.Home p {
+    margin-top: 30px;
+    font-size: 1.4rem;
+}

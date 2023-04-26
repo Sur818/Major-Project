@@ -1,0 +1,43 @@
+.myModal {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff91;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.myModal h1 {
+  margin: 0;
+  color: red;
+}
+
+.myModal p {
+margin-bottom: 30px;
+font-size: 1.1rem;
+  }
+
+.myModal .buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.myModal .buttonContainer button {
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.myModal .buttonContainer button.Yesbutton {
+  background-color: green;
+  color: white;
+}
+
+.myModal .buttonContainer button.Nobutton {
+  background: #616161;
+  color: white;
+}

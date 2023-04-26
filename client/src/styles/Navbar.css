@@ -1,0 +1,25 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color: #ffffff91;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Navbar ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.Navbar ul li {
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: all 200ms linear;
+}
+
+.Navbar ul li:hover {
+    font-weight: 600;
+}
